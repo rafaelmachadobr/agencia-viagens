@@ -12,6 +12,12 @@ a {
 }
 
 a,
-button {
+button,
+svg,
+img {
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }

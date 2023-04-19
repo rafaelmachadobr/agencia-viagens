@@ -1,7 +1,9 @@
+import Header from "../../components/Header/Index";
+
 export default function GrandCanyon() {
   return (
-    <div>
-      <h1>Grand Canyon</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
