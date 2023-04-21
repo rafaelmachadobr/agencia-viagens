@@ -5,7 +5,7 @@ import { BiSearch } from "react-icons/bi";
 export default function Header() {
   return (
     <header>
-      <img src={Logo} alt="logo" className={styles.logo} />
+      <a href="/"><img src={Logo} alt="logo" className={styles.logo} /></a>
       <nav>
         <ul>
           <li>

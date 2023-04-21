@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import { Section } from "../../components/Section";
 import Mala from "../../assets/imagens/mala.jpg";
+import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         tincidunt nunc, eget aliquam massa nisl eget lorem. Sed"
         imagem={Mala}
       />
+      <Footer />
     </>
   );
 }
