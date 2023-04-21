@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 0 1rem;
+  border-radius: 10px;
+
+  .imagemContainer {
+    margin-right: 1rem;
+    width: 45%;
+    height: 90%;
+
+    .imagem {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .conteudoContainer {
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    align-self: center;
+
+    .titulo {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .conteudo {
+      font-size: 2rem;
+      line-height: 1.5;
+      color: #555;
+    }
+  }
+}
