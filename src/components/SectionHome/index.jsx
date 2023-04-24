@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 
-export function SectionHome({ titulo, conteudo, imagem }) {
+export default function SectionHome({ titulo, conteudo, imagem }) {
   return (
     <section className={styles.section}>
       <div className={styles.imagemContainer}>

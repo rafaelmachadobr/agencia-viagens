@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import { SectionHome } from "../../components/SectionHome";
+import SectionHome from "../../components/SectionHome";
 import Mala from "../../assets/imagens/mala.jpg";
 import Footer from "../../components/Footer";
 
