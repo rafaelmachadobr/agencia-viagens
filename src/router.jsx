@@ -5,6 +5,7 @@ import Aruba from "./pages/Aruba";
 import Escocia from "./pages/Escocia";
 import GrandCanyon from "./pages/GrandCanyon";
 import MuralhasDaChina from "./pages/MuralhasDaChina";
+import NotFound from "./components/NotFound";
 
 export default function RouterApp() {
   return (
@@ -15,6 +16,7 @@ export default function RouterApp() {
         <Route path="/escocia" element={<Escocia />} />
         <Route path="muralhas-da-china" element={<MuralhasDaChina />} />
         <Route path="/aruba" element={<Aruba />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
